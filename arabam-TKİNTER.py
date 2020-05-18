@@ -9,7 +9,7 @@ kitap = Workbook()
 pencere = Tk() # Pencere oluştu
 pencere.title("Arabam.com Botu") #Başlık oluştu
 pencere.geometry("270x200+550+100") #Pencere boyutlandırma ve komutlandırma
-pencere.iconphoto(False, ImageTk.PhotoImage(Image.open("c:/payton/pics/ikon.ico")))
+pencere.iconphoto(False, ImageTk.PhotoImage(Image.open("ikon.ico")))
 
 
 def yazdır():
